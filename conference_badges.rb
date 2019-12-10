@@ -8,7 +8,7 @@ def batch_badge_creator(names)
   names.each { |e|
     x.push(badge_maker(e))
     }
-    
+    return x
 end
 
 def assign_rooms(speakers)
